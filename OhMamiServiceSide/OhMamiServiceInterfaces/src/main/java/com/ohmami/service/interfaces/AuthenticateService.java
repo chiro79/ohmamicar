@@ -4,6 +4,7 @@ import com.ohmami.service.entities.User;
 
 public interface AuthenticateService {
 
-	void loginUser(User user);
+	void login(User user);
+	void register(User user, String password);
 	
 }
